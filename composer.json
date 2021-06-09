@@ -16,8 +16,8 @@
         "php": ">=7.4",
         "overtrue/wechat": "^5.0",
         "ext-swoole": "^4.6",
-        "hyperf/guzzle": "2.2.x-dev",
-        "hyperf/super-globals": "2.2.x-dev"
+        "hyperf/guzzle": "~2.1.0",
+        "hyperf/super-globals": "~2.1.0"
     },
     "license": "MIT",
     "authors": [
@@ -26,7 +26,6 @@
             "email": "417170808@qq.com"
         }
     ],
-    "minimum-stability": "dev",
     "config": {
         "sort-packages": true
     },
