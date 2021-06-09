@@ -1,6 +1,11 @@
 {
     "name": "andphp/hyperf-wechat",
     "description": "Wechat SDK For Hyperf",
+    "keywords": [
+        "php",
+        "hyperf",
+        "wechat"
+    ],
     "autoload": {
         "psr-4": {
             "AndPHP\\HyperfWechat\\": "src/"
@@ -21,5 +26,13 @@
             "email": "417170808@qq.com"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "hyperf": {
+            "config": "AndPHP\\HyperfWechat\\ConfigProvider"
+        }
+    }
 }
