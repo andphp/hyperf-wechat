@@ -1,0 +1,25 @@
+{
+    "name": "andphp/hyperf-wechat",
+    "description": "Wechat SDK For Hyperf",
+    "autoload": {
+        "psr-4": {
+            "AndPHP\\HyperfWechat\\": "src/"
+        }
+    },
+    "type": "library",
+    "require": {
+        "php": ">=7.4",
+        "overtrue/wechat": "^5.0",
+        "ext-swoole": "^4.6",
+        "hyperf/guzzle": "2.2.x-dev",
+        "hyperf/super-globals": "2.2.x-dev"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Da Xiong",
+            "email": "417170808@qq.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
