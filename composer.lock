@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "dd58b97369d970c4d6da6d88e9b33c45",
+    "content-hash": "50ddb99a7e4e019f5367c1cb4d0a2197",
     "packages": [
         {
             "name": "doctrine/inflector",
